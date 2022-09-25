@@ -7,6 +7,7 @@ API_KEY="4502~fEGTycFhFVt7AJab3A0PhUnfo0L7cLv3W1uYWPbeb4LSlYqPe2tlyNoMdKGMRwb7"
 # TODO:
 # create LL that holds course object
 # print assignments after storing objects in LL
+# have program read from setup file 
 
 #New canvas object
 canvas=Canvas(API_URL,API_KEY)
