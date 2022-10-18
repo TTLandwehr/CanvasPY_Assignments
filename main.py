@@ -8,10 +8,12 @@ startTime=time.time()
 API_URL="https://canvas.unf.edu"
 #CANVAS API key
 #Hidden for privacy
-# TODO:
-# have program read from setup file 
-# create function that prints all assignments
+
+# TODO: 
 # create function that gets and stores API key of user
+# clean up code and output
+# try to improve run time
+
 #New canvas object
 canvas=Canvas(API_URL,API_KEY)
 #SLL for holding assignments
