@@ -2,9 +2,7 @@ from re import A
 from canvasapi import Canvas
 import llist
 from llist import sllist
-import time
 from functions import *
-startTime=time.time()
 #CANVAS API URL
 API_URL="https://canvas.unf.edu"
 #CANVAS API key
@@ -57,13 +55,5 @@ else:
                         print(tempassignvar, end="---")
                         print("Due at",end=": ")
                         print(tempassignvar.due_at)
-exitTime=(time.time()-startTime)
-print(exitTime)
-
-
-
-
-
-
 
 
