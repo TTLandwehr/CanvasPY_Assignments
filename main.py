@@ -8,7 +8,6 @@ API_URL="https://canvas.unf.edu"
 #CANVAS API key
 API_KEY=create_file()
 # TODO: 
-# create function that gets and stores API key of user
 # clean up code and output
 # try to improve run time
 
