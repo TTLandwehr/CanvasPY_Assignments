@@ -3,12 +3,13 @@ from canvasapi import Canvas
 import llist
 from llist import sllist
 import time
+from functions import *
 startTime=time.time()
 #CANVAS API URL
 API_URL="https://canvas.unf.edu"
 #CANVAS API key
-#Hidden for privacy
-
+#API_KEY="4502~fEGTycFhFVt7AJab3A0PhUnfo0L7cLv3W1uYWPbeb4LSlYqPe2tlyNoMdKGMRwb7"
+API_KEY=create_file()
 # TODO: 
 # create function that gets and stores API key of user
 # clean up code and output
