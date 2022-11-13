@@ -3,10 +3,14 @@ from canvasapi import Canvas
 import llist
 from llist import sllist
 from functions import *
-#CANVAS API URL
-API_URL="https://canvas.unf.edu"
-#CANVAS API key
-API_KEY=create_file()
+
+try:
+        file1=open("APIKEY.txt","r")
+except:
+        create_file()
+file1=open("APIKEY.txt")
+API_URL=file1.readline().strip()
+API_KEY=file1.readline()
 # TODO: 
 # clean up code and output
 # try to improve run time
